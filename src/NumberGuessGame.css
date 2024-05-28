@@ -1,0 +1,47 @@
+.digit {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .inKnown {
+    background-color: green;
+    color: white;
+  }
+  
+  .inUnknown {
+    background-color: orange;
+    color: white;
+  }
+  
+  .notIn {
+    background-color: red;
+    color: white;
+  }
+  
+  .help-panel {
+    margin: 20px 0;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0 5px;
+    border: 1px solid #000;
+    border-radius: 4px;
+  }
+  
